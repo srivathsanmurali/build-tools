@@ -14,4 +14,4 @@ RUN ./install_elixir_asdf.sh
 RUN echo ". $HOME/.asdf/asdf.sh" >> "$HOME/.bashrc"
 RUN echo ". $HOME/.asdf/completions/asdf.bash" >> "$HOME/.bashrc"
 
-CMD ["/bin/bash"]
+SHELL ["/bin/bash", "-c"]
