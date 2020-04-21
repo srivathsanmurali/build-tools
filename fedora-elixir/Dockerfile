@@ -11,4 +11,4 @@ COPY ./install_elixir_asdf.sh .
 
 RUN ./install_elixir_asdf.sh
 
-CMD ["iex"]
+CMD ["/bin/bash"]
